@@ -1,0 +1,16 @@
+# Arquivos do IntelliJ (IDE)
+.idea/
+*.iml
+*.iws
+
+# Pasta de compilados e relatórios (Lixo gerado a cada execução)
+target/
+allure-results/
+.allure/
+
+# Drivers locais (se houver)
+drivers/
+
+# Arquivos de sistema e logs
+.DS_Store
+*.log
