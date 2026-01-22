@@ -42,7 +42,7 @@ O projeto segue o padrão **Page Object Model (POM)**, garantindo:
 * **Manutenibilidade:** Alterações na UI requerem ajustes apenas nas classes de Page, sem quebrar os testes.
 * **Legibilidade:** O código dos testes foca nas regras de negócio e asserções.
 
-* **Known Issues (Bugs Conhecidos)
+## Known Issues (Bugs Conhecidos)
 O ambiente de testes público do ParaBank possui um comportamento intermitente onde permite login com credenciais inválidas.
 Por isso, o teste `deveBloquearLoginInvalido` pode falhar propositalmente, evidenciando essa falha de segurança no ambiente da aplicação.
 
